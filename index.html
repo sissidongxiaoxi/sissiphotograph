@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Photography portfolio of Dong Xiaoxi, based in Shanghai." />
+    <title>Dong Xiaoxi — Photography</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#projects">Skip to projects</a>
+
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#index" aria-label="Dong Xiaoxi, back to top">Dong Xiaoxi</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="#index">Index</a>
+        <a href="#featured">Works</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="index" class="hero" aria-label="Featured photograph">
+        <picture>
+          <source media="(max-width: 720px)" srcset="./assets/photos/hero/hero_4.JPG" />
+          <img src="./assets/photos/hero/%E9%A6%96%E9%A1%B5%E5%A4%A7%E5%9B%BE.JPG" alt="Coconuts being prepared beside a rice field" fetchpriority="high" />
+        </picture>
+        <div class="hero-title" aria-label="Dong Xiaoxi Photography">
+          <span class="hero-title__name">DONG XIAOXI</span>
+          <span class="hero-title__medium">PHOTOGRAPHY</span>
+        </div>
+        <div class="hero-meta">
+          <p>Photography</p>
+        </div>
+        <a class="scroll-cue" href="#projects" aria-label="Scroll to projects"><span></span></a>
+      </section>
+
+      <section id="featured" class="featured-section" aria-labelledby="featured-title">
+        <p id="featured-title" class="featured-sticky-label" data-text="{Selected works}">{Selected works}</p>
+
+        <div class="featured-stream">
+          <figure class="featured-item featured-item--one" role="button" tabindex="0" aria-pressed="false" aria-label="Enlarge selected photograph 1">
+            <img src="./assets/photos/hero/hero_1.JPG" alt="A lone walker crossing misty green hills" loading="lazy" />
+          </figure>
+          <figure class="featured-item featured-item--two" role="button" tabindex="0" aria-pressed="false" aria-label="Enlarge selected photograph 2">
+            <img src="./assets/photos/hero/hero_2.JPG" alt="A layered street reflection in a shop window" loading="lazy" />
+          </figure>
+          <figure class="featured-item featured-item--three" role="button" tabindex="0" aria-pressed="false" aria-label="Enlarge selected photograph 3">
+            <img src="./assets/photos/hero/hero_3.JPG" alt="Visitors and a sculpture inside a gallery" loading="lazy" />
+          </figure>
+          <figure class="featured-item featured-item--four" role="button" tabindex="0" aria-pressed="false" aria-label="Enlarge selected photograph 4">
+            <img src="./assets/photos/hero/hero_5.JPG" alt="Selected photograph by Dong Xiaoxi" loading="lazy" />
+          </figure>
+          <figure class="featured-item featured-item--five" role="button" tabindex="0" aria-pressed="false" aria-label="Enlarge selected photograph 5">
+            <img src="./assets/photos/hero/hero_6.JPG" alt="Selected photograph by Dong Xiaoxi" loading="lazy" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h1 id="projects-title">{Selected projects}</h1>
+          <p class="project-count"><span data-project-number>01</span> / 12</p>
+        </div>
+
+        <div class="shelf-shell">
+          <div class="shelf" data-shelf role="list" aria-label="Photography projects"></div>
+          <div class="shelf-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="gallery-heading" aria-live="polite">
+          <h2 data-active-title>Shanghai_street</h2>
+          <span data-active-year>2024</span>
+        </div>
+        <div class="gallery-wrap">
+          <div class="gallery" data-gallery tabindex="0" aria-label="Project gallery"></div>
+          <button class="gallery-edge gallery-edge--previous" type="button" aria-label="Previous photograph" data-gallery-direction="-1">
+            <span aria-hidden="true"></span>
+          </button>
+          <button class="gallery-edge gallery-edge--next" type="button" aria-label="Next photograph" data-gallery-direction="1">
+            <span aria-hidden="true"></span>
+          </button>
+          <div class="gallery-status" aria-live="polite">
+            <span data-current-image>01</span>
+            <span class="status-line"></span>
+            <span data-total-images>03</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section" aria-labelledby="about-title">
+        <p class="eyebrow">About</p>
+        <div class="about-grid">
+          <h2 id="about-title">Dong<br />Xiaoxi</h2>
+          <div class="sound-wave" data-sound-wave aria-hidden="true"></div>
+          <div class="about-copy">
+            <p>Photographer and student at <em class="serif-emphasis">the College of Design and Innovation</em>, Tongji University, Class of ’29.</p>
+            <p class="about-location">Based in Shanghai, China.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer id="contact" class="contact-section">
+        <p class="eyebrow">Contact</p>
+        <a class="email" href="mailto:sissidongxiaoxi@gmail.com">sissidongxiaoxi@gmail.com</a>
+        <div class="footer-line">
+          <p>© <span data-year></span> Dong Xiaoxi</p>
+          <a href="#index">Back to top ↑</a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
