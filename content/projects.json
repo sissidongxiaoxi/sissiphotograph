@@ -1,6 +1,6 @@
 [
   {
-    "title": "Shanghai Street",
+    "title": "Shanghai_street",
     "spineTitle": "Shanghai_street",
     "year": "2024",
     "color": "#87947a",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "title": "Shanghai Street",
+    "title": "Shanghai_street",
     "spineTitle": "Shanghai_street",
     "year": "2025",
     "color": "#a65c4e",
@@ -28,102 +28,102 @@
     "color": "#72899a",
     "cover": "/assets/photos-web/projects/kyushu_2025/kyushu_2025_cover.webp",
     "gallery": [
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02123.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02140.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02149.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02000.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02012.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02177.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02040.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02197.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02182.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02033.webp",
       "/assets/photos-web/projects/kyushu_2025/gallery/DSC02265.webp",
       "/assets/photos-web/projects/kyushu_2025/gallery/DSC02259.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02012.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC01907.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02177.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02000.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02149.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02033.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02182.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02197.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02140.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC01955.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02040.webp",
       "/assets/photos-web/projects/kyushu_2025/gallery/DSC02256.webp",
-      "/assets/photos-web/projects/kyushu_2025/gallery/DSC02123.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC01907.webp",
+      "/assets/photos-web/projects/kyushu_2025/gallery/DSC01955.webp",
       "/assets/photos-web/projects/kyushu_2025/gallery/DSC01984.webp"
     ]
   },
   {
-    "title": "Shanghai Hongkou",
+    "title": "Shanghai_Hongkou",
     "spineTitle": "Shanghai_Hongkou",
     "year": "2025",
     "color": "#c3a982",
     "cover": "/assets/photos-web/projects/shanghai_hongkou_2025/shanghai_hongkou_2025_cover.webp",
     "gallery": [
+      "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03079.webp",
+      "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03058.webp",
+      "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03049.webp",
       "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03153.webp",
       "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03140.webp",
       "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03125.webp",
-      "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03079.webp",
       "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03108.webp",
-      "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03058.webp",
-      "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03107.webp",
-      "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03049.webp"
+      "/assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03107.webp"
     ]
   },
   {
-    "title": "Shanghai Marathon",
+    "title": "Shanghai_marathon",
     "spineTitle": "Shanghai_marathon",
     "year": "2025",
     "color": "#806d79",
     "cover": "/assets/photos-web/projects/shanghai_marathon_2025/shanghai_marathon_2025.webp",
     "gallery": [
-      "/assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03390.webp",
-      "/assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03383.webp",
       "/assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03311.webp",
-      "/assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03303.webp"
+      "/assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03303.webp",
+      "/assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03390.webp",
+      "/assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03383.webp"
     ]
   },
   {
-    "title": "Bali Ayana",
+    "title": "Bali_Ayana",
     "spineTitle": "Bali_Ayana",
     "year": "2026",
     "color": "#b58a45",
     "cover": "/assets/photos-web/projects/bali_ayana_2026/bali_ayana_2026_cover.webp",
     "gallery": [
-      "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC04173.webp",
-      "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC03970.webp",
-      "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC04120.webp",
       "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC04068.webp",
+      "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC03823.webp",
+      "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC03970.webp",
       "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC03985.webp",
-      "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC03823.webp"
+      "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC04173.webp",
+      "/assets/photos-web/projects/bali_ayana_2026/gallery/DSC04120.webp"
     ]
   },
   {
-    "title": "Bali Ubud",
+    "title": "Bali_Ubud",
     "spineTitle": "Bali_Ubud",
     "year": "2026",
     "color": "#73785d",
     "cover": "/assets/photos-web/projects/bali_ubud_2026/bali_ubud_2026_cover.webp",
     "gallery": [
+      "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04308.webp",
       "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04299.webp",
       "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04298.webp",
       "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04328.webp",
       "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04321.webp",
-      "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04308.webp",
       "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04322.webp",
-      "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04232.webp",
       "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04222.webp",
+      "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04232.webp",
       "/assets/photos-web/projects/bali_ubud_2026/gallery/DSC04223.webp"
     ]
   },
   {
-    "title": "Shanghai Short Movie",
+    "title": "Shanghai_short_movie",
     "spineTitle": "Shanghai_short_movie",
     "year": "2026",
     "color": "#626c70",
     "cover": "/assets/photos-web/projects/shanghai_short_movie_2026/shanghai_short_movie_2026_cover.webp",
     "gallery": [
-      "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(10).webp",
-      "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(4).webp",
       "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(3).webp",
+      "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(6).webp",
+      "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(4).webp",
       "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(2).webp",
-      "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/IMG_4387.webp",
       "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(1).webp",
+      "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/IMG_4387.webp",
       "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(7).webp",
-      "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(6).webp"
+      "/assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(10).webp"
     ]
   },
   {
@@ -133,31 +133,29 @@
     "color": "#b87862",
     "cover": "/assets/photos-web/projects/kyoto_2026/kyoto_2026_cover.webp",
     "gallery": [
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06175.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06239.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06198.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06238.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06288.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06317.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06128.webp",
       "/assets/photos-web/projects/kyoto_2026/gallery/DSC06301.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06278.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06272.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06317.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06288.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06291.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06130.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06123.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06144.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06142.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06198.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06239.webp",
+      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06238.webp",
       "/assets/photos-web/projects/kyoto_2026/gallery/DSC06249.webp",
       "/assets/photos-web/projects/kyoto_2026/gallery/DSC06258.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06272.webp",
       "/assets/photos-web/projects/kyoto_2026/gallery/DSC06255.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06123.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06278.webp",
       "/assets/photos-web/projects/kyoto_2026/gallery/DSC06253.webp",
       "/assets/photos-web/projects/kyoto_2026/gallery/DSC06247.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06130.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06291.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06142.webp",
-      "/assets/photos-web/projects/kyoto_2026/gallery/DSC06144.webp",
       "/assets/photos-web/projects/kyoto_2026/gallery/DSC06232.webp"
     ]
   },
   {
-    "title": "Tokyo Gallery",
+    "title": "Tokyo_gallery",
     "spineTitle": "Tokyo_gallery",
     "year": "2026",
     "color": "#aeb7b4",
@@ -177,15 +175,15 @@
     "color": "#9b8775",
     "cover": "/assets/photos-web/projects/tokyo_2026/tokyo_2026_cover.webp",
     "gallery": [
-      "/assets/photos-web/projects/tokyo_2026/gallery/DSC06499.webp",
       "/assets/photos-web/projects/tokyo_2026/gallery/DSC06519.webp",
+      "/assets/photos-web/projects/tokyo_2026/gallery/DSC06480.webp",
       "/assets/photos-web/projects/tokyo_2026/gallery/DSC06485.webp",
-      "/assets/photos-web/projects/tokyo_2026/gallery/DSC06495.webp",
-      "/assets/photos-web/projects/tokyo_2026/gallery/DSC06480.webp"
+      "/assets/photos-web/projects/tokyo_2026/gallery/DSC06499.webp",
+      "/assets/photos-web/projects/tokyo_2026/gallery/DSC06495.webp"
     ]
   },
   {
-    "title": "Shanghai MAP",
+    "title": "Shanghai_MAP",
     "spineTitle": "Shanghai_MAP",
     "year": "2026",
     "color": "#6f7d76",
