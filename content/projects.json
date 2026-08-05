@@ -1,6 +1,6 @@
 [
   {
-    "title": "Shanghai Street",
+    "title": "Shanghai_street",
     "spineTitle": "Shanghai_street",
     "year": "2024",
     "color": "#87947a",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "title": "Shanghai Street",
+    "title": "Shanghai_street",
     "spineTitle": "Shanghai_street",
     "year": "2025",
     "color": "#a65c4e",
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "title": "Shanghai Hongkou",
+    "title": "Shanghai_Hongkou",
     "spineTitle": "Shanghai_Hongkou",
     "year": "2025",
     "color": "#c3a982",
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "title": "Shanghai Marathon",
+    "title": "Shanghai_marathon",
     "spineTitle": "Shanghai_marathon",
     "year": "2025",
     "color": "#806d79",
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "title": "Bali Ayana",
+    "title": "Bali_Ayana",
     "spineTitle": "Bali_Ayana",
     "year": "2026",
     "color": "#b58a45",
@@ -92,7 +92,7 @@
     ]
   },
   {
-    "title": "Bali Ubud",
+    "title": "Bali_Ubud",
     "spineTitle": "Bali_Ubud",
     "year": "2026",
     "color": "#73785d",
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "title": "Shanghai Short Movie",
+    "title": "Shanghai_short_movie",
     "spineTitle": "Shanghai_short_movie",
     "year": "2026",
     "color": "#626c70",
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "title": "Tokyo Gallery",
+    "title": "Tokyo_gallery",
     "spineTitle": "Tokyo_gallery",
     "year": "2026",
     "color": "#aeb7b4",
@@ -183,7 +183,7 @@
     ]
   },
   {
-    "title": "Shanghai MAP",
+    "title": "Shanghai_MAP",
     "spineTitle": "Shanghai_MAP",
     "year": "2026",
     "color": "#6f7d76",
