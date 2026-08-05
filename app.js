@@ -1,43 +1,20 @@
-const base = "./assets/photos/projects";
+let projects = [];
 
-const projects = [
-  project("Shanghai Street", "2024", "shanghai_street_2024", "shanghai_street_2024_cover.JPG", ["IMG_4095.jpg", "IMG_8732.jpg"], "#87947a"),
-  project("Shanghai Street", "2025", "shanghai_street_2025", "shanghai_street_2025_cover.JPG", ["DSC00784.JPG", "DSC01373.JPG"], "#a65c4e"),
-  project("Kyushu", "2025", "kyushu_2025", "kyushu_2025_cover.JPG", ["DSC02265.jpg", "DSC02259.jpg", "DSC02012.JPG", "DSC01907.JPG", "DSC02177.JPG", "DSC02000.JPG", "DSC02149.JPG", "DSC02033.jpg", "DSC02182.JPG", "DSC02197.jpg", "DSC02140.JPG", "DSC01955.JPG", "DSC02040.jpg", "DSC02256.jpg", "DSC02123.JPG", "DSC01984.JPG"], "#72899a"),
-  project("Shanghai Hongkou", "2025", "shanghai_hongkou_2025", "shanghai_hongkou_2025_cover.JPG", ["DSC03153.JPG", "DSC03140.JPG", "DSC03125.JPG", "DSC03079.JPG", "DSC03108.JPG", "DSC03058.JPG", "DSC03107.JPG", "DSC03049.jpg"], "#c3a982"),
-  project("Shanghai Marathon", "2025", "shanghai_marathon_2025", "shanghai_marathon_2025.JPG", ["DSC03390.JPG", "DSC03383.JPG", "DSC03311.JPG", "DSC03303.JPG"], "#806d79"),
-  project("Bali Ayana", "2026", "bali_ayana_2026", "bali_ayana_2026_cover.JPG", ["DSC04173.JPG", "DSC03970.JPG", "DSC04120.JPG", "DSC04068.JPG", "DSC03985.JPG", "DSC03823.JPG"], "#b58a45"),
-  project("Bali Ubud", "2026", "bali_ubud_2026", "bali_ubud_2026_cover.JPG", ["DSC04299.JPG", "DSC04298.JPG", "DSC04328.JPG", "DSC04321.JPG", "DSC04308.JPG", "DSC04322.JPG", "DSC04232.JPG", "DSC04222.JPG", "DSC04223.JPG"], "#73785d"),
-  project("Shanghai Short Movie", "2026", "shanghai_short_movie_2026", "shanghai_short_movie_2026_cover.PNG", ["6月5日 (1)(10).PNG", "6月5日 (1)(4).PNG", "6月5日 (1)(3).PNG", "6月5日 (1)(2).PNG", "IMG_4387.JPG", "6月5日 (1)(1).PNG", "6月5日 (1)(7).PNG", "6月5日 (1)(6).PNG"], "#626c70"),
-  project("Kyoto", "2026", "kyoto_2026", "kyoto_2026_cover.JPG", ["DSC06175.JPG", "DSC06239.JPG", "DSC06198.JPG", "DSC06238.JPG", "DSC06288.JPG", "DSC06317.JPG", "DSC06128.JPG", "DSC06301.JPG", "DSC06249.JPG", "DSC06258.JPG", "DSC06272.JPG", "DSC06255.JPG", "DSC06123.JPG", "DSC06278.JPG", "DSC06253.JPG", "DSC06247.JPG", "DSC06130.JPG", "DSC06291.JPG", "DSC06142.JPG", "DSC06144.JPG", "DSC06232.jpg"], "#b87862"),
-  project("Tokyo Gallery", "2026", "tokyo_gallery_2026", "tokyo_gallery_2026_cover.JPG", ["DSC06459.JPG", "DSC06466.JPG", "DSC06443.JPG", "DSC06430.JPG", "DSC06437.JPG"], "#aeb7b4"),
-  project("Tokyo", "2026", "tokyo_2026", "tokyo_2026_cover.JPG", ["DSC06499.JPG", "DSC06519.JPG", "DSC06485.JPG", "DSC06495.JPG", "DSC06480.JPG"], "#9b8775"),
-  project("Shanghai MAP", "2026", "shanghai_map_2026", "shanghai_map_2026_cover.jpg", ["DSC06855.JPG", "DSC06896.JPG", "DSC06843.JPG", "DSC06895.JPG", "DSC06853.JPG", "DSC06890.JPG", "DSC06839.JPG"], "#6f7d76")
-];
+function assetUrl(path) {
+  if (!path) return "";
+  const relativePath = path.startsWith("/") ? `.${path}` : path.startsWith("./") ? path : `./${path}`;
+  return encodeURI(relativePath);
+}
 
-const spineTitles = [
-  "Shanghai_street",
-  "Shanghai_street",
-  "Kyushu",
-  "Shanghai_Hongkou",
-  "Shanghai_marathon",
-  "Bali_Ayana",
-  "Bali_Ubud",
-  "Shanghai_short_movie",
-  "Kyoto",
-  "Tokyo_gallery",
-  "Tokyo",
-  "Shanghai_MAP"
-];
-
-function project(title, year, folder, cover, gallery, color) {
-  const root = `${base}/${folder}`;
+function hydrateProject(item) {
+  const cover = assetUrl(item.cover);
+  const galleryImages = Array.isArray(item.gallery) ? item.gallery : [];
   return {
-    title, year, color,
-    cover: encodeURI(`${root}/${cover}`),
-    images: [cover, ...gallery].map((file, index) => ({
-      src: encodeURI(`${root}/${index === 0 ? "" : "gallery/"}${file}`),
-      alt: `${title}, photograph ${index + 1}`
+    ...item,
+    cover,
+    images: [item.cover, ...galleryImages].filter(Boolean).map((path, index) => ({
+      src: assetUrl(path),
+      alt: `${item.title}, photograph ${index + 1}`
     }))
   };
 }
@@ -47,6 +24,7 @@ const gallery = document.querySelector("[data-gallery]");
 const activeTitle = document.querySelector("[data-active-title]");
 const activeYear = document.querySelector("[data-active-year]");
 const projectNumber = document.querySelector("[data-project-number]");
+const projectTotal = document.querySelector("[data-project-total]");
 const currentImage = document.querySelector("[data-current-image]");
 const totalImages = document.querySelector("[data-total-images]");
 const galleryEdges = [...document.querySelectorAll("[data-gallery-direction]")];
@@ -57,6 +35,8 @@ const aboutGrid = document.querySelector(".about-grid");
 const aboutSection = document.querySelector(".about-section");
 const aboutCopy = document.querySelector(".about-copy");
 const aboutTitle = document.querySelector("#about-title");
+const hero = document.querySelector(".hero");
+const heroSignature = document.querySelector(".hero-signature");
 let activeIndex = 0;
 let isBookTransitioning = false;
 
@@ -87,6 +67,99 @@ if (soundWave && aboutGrid) {
 
 const featuredItems = [...document.querySelectorAll(".featured-item")];
 const featuredLabel = document.querySelector(".featured-sticky-label");
+const featuredSection = document.querySelector(".featured-section");
+const featuredCurve = document.querySelector("[data-featured-curve]");
+const featuredCurvePath = document.querySelector("[data-featured-curve-path]");
+
+let featuredCurvePoints = [];
+let featuredCurveLength = 0;
+let featuredCurveGeometryFrame;
+let featuredCurveScrollFrame;
+
+function createSmoothCurve(points) {
+  if (points.length < 2) return "";
+  let path = `M ${points[0].x} ${points[0].y}`;
+  const tension = .82;
+  for (let index = 0; index < points.length - 1; index += 1) {
+    const previous = points[index - 1] || points[index];
+    const current = points[index];
+    const next = points[index + 1];
+    const following = points[index + 2] || next;
+    const controlOne = {
+      x: current.x + ((next.x - previous.x) / 6) * tension,
+      y: current.y + ((next.y - previous.y) / 6) * tension
+    };
+    const controlTwo = {
+      x: next.x - ((following.x - current.x) / 6) * tension,
+      y: next.y - ((following.y - current.y) / 6) * tension
+    };
+    path += ` C ${controlOne.x} ${controlOne.y}, ${controlTwo.x} ${controlTwo.y}, ${next.x} ${next.y}`;
+  }
+  return path;
+}
+
+function createArtisticCurvePoints(photoPoints, sectionWidth) {
+  if (photoPoints.length < 2) return photoPoints;
+  const expanded = [photoPoints[0]];
+  photoPoints.slice(0, -1).forEach((current, index) => {
+    const next = photoPoints[index + 1];
+    const verticalDistance = next.y - current.y;
+    const horizontalVariation = (Math.sin((index + 1) * 2.37) + 1) / 2;
+    const verticalVariation = Math.cos((index + 1) * 1.73);
+    const outerRatio = .82 + horizontalVariation * .12;
+    const innerRatio = .06 + horizontalVariation * .1;
+    const firstEdge = index % 2 === 0 ? sectionWidth * outerRatio : sectionWidth * innerRatio;
+    const oppositeEdge = index % 2 === 0 ? sectionWidth * (1 - innerRatio) : sectionWidth * (1 - outerRatio);
+    const firstTurn = .25 + verticalVariation * .055;
+    const secondTurn = .69 - verticalVariation * .045;
+    expanded.push(
+      { x: firstEdge, y: current.y + verticalDistance * firstTurn },
+      { x: oppositeEdge, y: current.y + verticalDistance * secondTurn },
+      next
+    );
+  });
+  return expanded;
+}
+
+function updateFeaturedCurveProgress() {
+  cancelAnimationFrame(featuredCurveScrollFrame);
+  featuredCurveScrollFrame = requestAnimationFrame(() => {
+    if (!featuredSection || !featuredCurvePath || featuredCurvePoints.length < 2 || !featuredCurveLength) return;
+    const sectionTop = featuredSection.getBoundingClientRect().top + window.scrollY;
+    const firstPosition = sectionTop + featuredCurvePoints[0].y;
+    const lastPosition = sectionTop + featuredCurvePoints[featuredCurvePoints.length - 1].y;
+    const drawingEdge = window.scrollY + window.innerHeight * .72;
+    const progress = Math.min(1, Math.max(0, (drawingEdge - firstPosition) / Math.max(1, lastPosition - firstPosition)));
+    const visibleProgress = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 1 : progress;
+    featuredCurvePath.style.strokeDashoffset = `${featuredCurveLength * (1 - visibleProgress)}`;
+  });
+}
+
+function updateFeaturedCurveGeometry() {
+  cancelAnimationFrame(featuredCurveGeometryFrame);
+  featuredCurveGeometryFrame = requestAnimationFrame(() => {
+    if (!featuredSection || !featuredCurve || !featuredCurvePath) return;
+    const sectionRect = featuredSection.getBoundingClientRect();
+    const photoPoints = featuredItems.map((item) => {
+      const photoRect = item.querySelector("img").getBoundingClientRect();
+      return {
+        x: photoRect.left - sectionRect.left + photoRect.width / 2,
+        y: photoRect.top - sectionRect.top + photoRect.height / 2
+      };
+    });
+    featuredCurvePoints = createArtisticCurvePoints(photoPoints, sectionRect.width);
+    featuredCurve.setAttribute("viewBox", `0 0 ${sectionRect.width} ${sectionRect.height}`);
+    featuredCurvePath.setAttribute("d", createSmoothCurve(featuredCurvePoints));
+    featuredCurveLength = featuredCurvePath.getTotalLength();
+    featuredCurvePath.style.strokeDasharray = `${featuredCurveLength}`;
+    updateFeaturedCurveProgress();
+  });
+}
+
+window.addEventListener("scroll", updateFeaturedCurveProgress, { passive: true });
+window.addEventListener("resize", updateFeaturedCurveGeometry);
+featuredItems.forEach((item) => item.querySelector("img").addEventListener("load", updateFeaturedCurveGeometry));
+updateFeaturedCurveGeometry();
 
 let overlapFrame;
 function updateFeaturedLabelOverlap() {
@@ -172,6 +245,25 @@ window.addEventListener("scroll", updateAboutCopyParallax, { passive: true });
 window.addEventListener("resize", updateAboutCopyParallax);
 updateAboutCopyParallax();
 
+let heroSignatureParallaxFrame;
+function updateHeroSignatureParallax() {
+  cancelAnimationFrame(heroSignatureParallaxFrame);
+  heroSignatureParallaxFrame = requestAnimationFrame(() => {
+    if (!hero || !heroSignature) return;
+    const heroRect = hero.getBoundingClientRect();
+    const progress = Math.min(1, Math.max(0, -heroRect.top / Math.max(1, heroRect.height)));
+    const offset = -progress * heroRect.height * 0.38;
+    const opacity = Math.min(1, Math.max(0, (1 - progress) / 0.24));
+    heroSignature.style.setProperty("--hero-signature-parallax", `${offset}px`);
+    heroSignature.style.setProperty("--hero-signature-opacity", opacity.toFixed(3));
+    heroSignature.style.pointerEvents = opacity > 0.05 ? "auto" : "none";
+  });
+}
+
+window.addEventListener("scroll", updateHeroSignatureParallax, { passive: true });
+window.addEventListener("resize", updateHeroSignatureParallax);
+updateHeroSignatureParallax();
+
 function toggleFeaturedItem(item) {
   const shouldOpen = !item.classList.contains("is-enlarged");
   featuredItems.forEach((featuredItem) => {
@@ -202,7 +294,9 @@ document.addEventListener("click", () => {
   });
 });
 
-projects.forEach((item, index) => {
+function buildShelf() {
+ shelf.replaceChildren();
+ projects.forEach((item, index) => {
   const button = document.createElement("button");
   button.type = "button";
   button.className = `book${index === 0 ? " is-active" : ""}`;
@@ -212,7 +306,7 @@ projects.forEach((item, index) => {
   button.setAttribute("aria-pressed", index === 0 ? "true" : "false");
   button.innerHTML = `
     <span class="book-object">
-      <span class="book-spine"><span>${spineTitles[index]}</span></span>
+      <span class="book-spine"><span>${item.spineTitle}</span></span>
       <span class="book-cover">
         <img src="${item.cover}" alt="" loading="${index === 0 ? "eager" : "lazy"}">
         <span class="cover-type"><strong>${item.title}</strong><small>${item.year} · ${pad(index + 1)}</small></span>
@@ -220,7 +314,8 @@ projects.forEach((item, index) => {
     </span>`;
   button.addEventListener("click", () => selectProject(index, button));
   shelf.append(button);
-});
+ });
+}
 
 function selectProject(index, button) {
   if (index === activeIndex || isBookTransitioning) return;
@@ -247,7 +342,7 @@ function selectProject(index, button) {
 }
 
 function renderGallery(item) {
-  activeTitle.textContent = spineTitles[activeIndex];
+  activeTitle.textContent = item.spineTitle;
   activeYear.textContent = item.year;
   projectNumber.textContent = pad(activeIndex + 1);
   currentImage.textContent = "01";
@@ -283,6 +378,7 @@ gallery.addEventListener("pointercancel", finishDrag);
 let galleryAutoFrame = 0;
 let galleryAutoDirection = 0;
 let galleryAutoPreviousTime = 0;
+let galleryEdgeHoverTimer = 0;
 
 function updateGalleryEdgeState() {
   const maximum = Math.max(0, gallery.scrollWidth - gallery.clientWidth);
@@ -299,6 +395,19 @@ function stopGalleryAutoScroll() {
   galleryAutoDirection = 0;
   galleryAutoPreviousTime = 0;
   gallery.classList.remove("is-auto-scrolling");
+}
+
+function endGalleryEdgeHover() {
+  window.clearTimeout(galleryEdgeHoverTimer);
+  galleryEdgeHoverTimer = 0;
+  stopGalleryAutoScroll();
+  gallery.classList.remove("is-edge-hovering");
+}
+
+function beginGalleryEdgeHover(direction) {
+  endGalleryEdgeHover();
+  gallery.classList.add("is-edge-hovering");
+  galleryEdgeHoverTimer = window.setTimeout(() => startGalleryAutoScroll(direction), 460);
 }
 
 function runGalleryAutoScroll(time) {
@@ -336,16 +445,17 @@ function moveToAdjacentGalleryImage(direction) {
 
 galleryEdges.forEach((edge) => {
   const direction = Number(edge.dataset.galleryDirection);
-  edge.addEventListener("pointerenter", () => startGalleryAutoScroll(direction));
-  edge.addEventListener("pointerleave", stopGalleryAutoScroll);
-  edge.addEventListener("pointercancel", stopGalleryAutoScroll);
+  edge.addEventListener("pointerenter", () => beginGalleryEdgeHover(direction));
+  edge.addEventListener("pointerleave", endGalleryEdgeHover);
+  edge.addEventListener("pointercancel", endGalleryEdgeHover);
+  edge.addEventListener("pointerdown", endGalleryEdgeHover);
   edge.addEventListener("click", () => {
-    stopGalleryAutoScroll();
+    endGalleryEdgeHover();
     moveToAdjacentGalleryImage(direction);
   });
 });
 
-window.addEventListener("blur", stopGalleryAutoScroll);
+window.addEventListener("blur", endGalleryEdgeHover);
 
 let counterFrame;
 gallery.addEventListener("scroll", () => {
@@ -379,4 +489,22 @@ document.querySelectorAll(".primary-nav a").forEach((link) => link.addEventListe
 }));
 
 document.querySelector("[data-year]").textContent = new Date().getFullYear();
-renderGallery(projects[0]);
+
+async function initializeProjects() {
+  try {
+    const response = await fetch("./content/projects.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`Project data request failed: ${response.status}`);
+    const data = await response.json();
+    if (!Array.isArray(data) || !data.length) throw new Error("No photography projects were found.");
+    projects = data.map(hydrateProject);
+    activeIndex = 0;
+    projectTotal.textContent = String(projects.length);
+    buildShelf();
+    renderGallery(projects[0]);
+  } catch (error) {
+    console.error(error);
+    shelf.innerHTML = '<p class="content-error">Project content could not be loaded.</p>';
+  }
+}
+
+initializeProjects();

@@ -1,0 +1,64 @@
+media:
+  input: assets/photos
+  output: /assets/photos
+  categories: [image]
+  rename: false
+
+content:
+  - name: projects
+    label: Photography projects
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: title
+        label: Display title
+        type: string
+        required: true
+      - name: spineTitle
+        label: Spine and gallery title
+        type: string
+        required: true
+        description: Capitalization and underscores are preserved exactly.
+      - name: year
+        label: Year
+        type: string
+        required: true
+      - name: color
+        label: Book color
+        type: string
+        required: true
+        pattern:
+          regex: "^#[0-9A-Fa-f]{6}$"
+          message: Use a six-digit hex color such as #87947a.
+      - name: cover
+        label: Cover image
+        type: image
+        required: true
+        options:
+          path: assets/photos/projects
+          categories: [image]
+          rename: false
+      - name: gallery
+        label: Gallery images
+        type: image
+        required: true
+        options:
+          path: assets/photos/projects
+          multiple:
+            max: 100
+          unique: true
+          categories: [image]
+          rename: false
+
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      create: "content: add {filename}"
+      update: "content: update {filename}"
+      delete: "content: remove {filename}"

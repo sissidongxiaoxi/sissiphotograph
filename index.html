@@ -29,18 +29,24 @@
           <source media="(max-width: 720px)" srcset="./assets/photos/hero/hero_4.JPG" />
           <img src="./assets/photos/hero/%E9%A6%96%E9%A1%B5%E5%A4%A7%E5%9B%BE.JPG" alt="Coconuts being prepared beside a rice field" fetchpriority="high" />
         </picture>
-        <div class="hero-title" aria-label="Dong Xiaoxi Photography">
-          <span class="hero-title__name">DONG XIAOXI</span>
-          <span class="hero-title__medium">PHOTOGRAPHY</span>
-        </div>
-        <div class="hero-meta">
-          <p>Photography</p>
+        <div class="hero-signature" aria-label="Dong Xiaoxi photography">
+          <span class="hero-signature__name">DongXiaoxi</span>
+          <span class="hero-signature__medium">photography</span>
         </div>
         <a class="scroll-cue" href="#projects" aria-label="Scroll to projects"><span></span></a>
       </section>
 
       <section id="featured" class="featured-section" aria-labelledby="featured-title">
         <p id="featured-title" class="featured-sticky-label" data-text="{Selected works}">{Selected works}</p>
+        <svg class="featured-curve" data-featured-curve aria-hidden="true" preserveAspectRatio="none">
+          <defs>
+            <filter id="featured-handdrawn" x="-8%" y="-4%" width="116%" height="108%">
+              <feTurbulence type="fractalNoise" baseFrequency="0.009 0.038" numOctaves="2" seed="17" result="noise" />
+              <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G" />
+            </filter>
+          </defs>
+          <path data-featured-curve-path></path>
+        </svg>
 
         <div class="featured-stream">
           <figure class="featured-item featured-item--one" role="button" tabindex="0" aria-pressed="false" aria-label="Enlarge selected photograph 1">
@@ -64,7 +70,7 @@
       <section id="projects" class="projects-section" aria-labelledby="projects-title">
         <div class="section-heading">
           <h1 id="projects-title">{Selected projects}</h1>
-          <p class="project-count"><span data-project-number>01</span> / 12</p>
+          <p class="project-count"><span data-project-number>01</span> / <span data-project-total>12</span></p>
         </div>
 
         <div class="shelf-shell">
