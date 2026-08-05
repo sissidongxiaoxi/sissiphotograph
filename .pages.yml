@@ -1,6 +1,6 @@
 media:
-  input: assets/photos
-  output: /assets/photos
+  input: assets/photos-web
+  output: /assets/photos-web
   categories: [image]
   rename: false
 
@@ -39,7 +39,7 @@ content:
         type: image
         required: true
         options:
-          path: assets/photos/projects
+          path: assets/photos-web/projects
           categories: [image]
           rename: false
       - name: gallery
@@ -47,7 +47,7 @@ content:
         type: image
         required: true
         options:
-          path: assets/photos/projects
+          path: assets/photos-web/projects
           multiple:
             max: 100
           unique: true

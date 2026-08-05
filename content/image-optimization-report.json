@@ -1,0 +1,1818 @@
+{
+  "images": 113,
+  "source_bytes": 495675168,
+  "web_bytes": 70964678,
+  "reduction_percent": 85.7,
+  "minimum_psnr_db": 31.56,
+  "average_psnr_db": 37.52,
+  "files": [
+    {
+      "source": "hero/hero_1.JPG",
+      "output": "assets/photos-web/hero/hero_1.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 10937846,
+      "web_bytes": 417136,
+      "reduction_percent": 96.2,
+      "psnr_db": 39.25
+    },
+    {
+      "source": "hero/hero_2.JPG",
+      "output": "assets/photos-web/hero/hero_2.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 2060463,
+      "web_bytes": 326042,
+      "reduction_percent": 84.2,
+      "psnr_db": 39.68
+    },
+    {
+      "source": "hero/hero_3.JPG",
+      "output": "assets/photos-web/hero/hero_3.webp",
+      "original_dimensions": [
+        6041,
+        4027
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 2903271,
+      "web_bytes": 1033600,
+      "reduction_percent": 64.4,
+      "psnr_db": 34.76
+    },
+    {
+      "source": "hero/hero_4.JPG",
+      "output": "assets/photos-web/hero/hero_4.webp",
+      "original_dimensions": [
+        2843,
+        4265
+      ],
+      "web_dimensions": [
+        2000,
+        3000
+      ],
+      "source_bytes": 1335390,
+      "web_bytes": 767016,
+      "reduction_percent": 42.6,
+      "psnr_db": 37.19
+    },
+    {
+      "source": "hero/hero_5.JPG",
+      "output": "assets/photos-web/hero/hero_5.webp",
+      "original_dimensions": [
+        4534,
+        4534
+      ],
+      "web_dimensions": [
+        3000,
+        3000
+      ],
+      "source_bytes": 5567512,
+      "web_bytes": 237182,
+      "reduction_percent": 95.7,
+      "psnr_db": 40.94
+    },
+    {
+      "source": "hero/hero_6.JPG",
+      "output": "assets/photos-web/hero/hero_6.webp",
+      "original_dimensions": [
+        4442,
+        6663
+      ],
+      "web_dimensions": [
+        2000,
+        3000
+      ],
+      "source_bytes": 2258045,
+      "web_bytes": 525618,
+      "reduction_percent": 76.7,
+      "psnr_db": 39.04
+    },
+    {
+      "source": "hero/首页.JPG",
+      "output": "assets/photos-web/hero/首页.webp",
+      "original_dimensions": [
+        6526,
+        4351
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 2445092,
+      "web_bytes": 592774,
+      "reduction_percent": 75.8,
+      "psnr_db": 37.91
+    },
+    {
+      "source": "hero/首页大图.JPG",
+      "output": "assets/photos-web/hero/首页大图.webp",
+      "original_dimensions": [
+        6526,
+        4351
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 2445092,
+      "web_bytes": 592774,
+      "reduction_percent": 75.8,
+      "psnr_db": 37.91
+    },
+    {
+      "source": "projects/bali_ayana_2026/bali_ayana_2026_cover.JPG",
+      "output": "assets/photos-web/projects/bali_ayana_2026/bali_ayana_2026_cover.webp",
+      "original_dimensions": [
+        4227,
+        6340
+      ],
+      "web_dimensions": [
+        2000,
+        3000
+      ],
+      "source_bytes": 3269746,
+      "web_bytes": 1037400,
+      "reduction_percent": 68.3,
+      "psnr_db": 34.48
+    },
+    {
+      "source": "projects/bali_ayana_2026/gallery/DSC03823.JPG",
+      "output": "assets/photos-web/projects/bali_ayana_2026/gallery/DSC03823.webp",
+      "original_dimensions": [
+        3790,
+        5053
+      ],
+      "web_dimensions": [
+        1920,
+        2560
+      ],
+      "source_bytes": 1970683,
+      "web_bytes": 705576,
+      "reduction_percent": 64.2,
+      "psnr_db": 36.27
+    },
+    {
+      "source": "projects/bali_ayana_2026/gallery/DSC03970.JPG",
+      "output": "assets/photos-web/projects/bali_ayana_2026/gallery/DSC03970.webp",
+      "original_dimensions": [
+        4672,
+        7008
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 3664753,
+      "web_bytes": 804002,
+      "reduction_percent": 78.1,
+      "psnr_db": 34.12
+    },
+    {
+      "source": "projects/bali_ayana_2026/gallery/DSC03985.JPG",
+      "output": "assets/photos-web/projects/bali_ayana_2026/gallery/DSC03985.webp",
+      "original_dimensions": [
+        6041,
+        4027
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2903271,
+      "web_bytes": 799290,
+      "reduction_percent": 72.5,
+      "psnr_db": 34.31
+    },
+    {
+      "source": "projects/bali_ayana_2026/gallery/DSC04068.JPG",
+      "output": "assets/photos-web/projects/bali_ayana_2026/gallery/DSC04068.webp",
+      "original_dimensions": [
+        6794,
+        4529
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2126341,
+      "web_bytes": 328954,
+      "reduction_percent": 84.5,
+      "psnr_db": 37.04
+    },
+    {
+      "source": "projects/bali_ayana_2026/gallery/DSC04120.JPG",
+      "output": "assets/photos-web/projects/bali_ayana_2026/gallery/DSC04120.webp",
+      "original_dimensions": [
+        4672,
+        7008
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2019886,
+      "web_bytes": 272952,
+      "reduction_percent": 86.5,
+      "psnr_db": 36.8
+    },
+    {
+      "source": "projects/bali_ayana_2026/gallery/DSC04173.JPG",
+      "output": "assets/photos-web/projects/bali_ayana_2026/gallery/DSC04173.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2238629,
+      "web_bytes": 202568,
+      "reduction_percent": 91.0,
+      "psnr_db": 36.03
+    },
+    {
+      "source": "projects/bali_ubud_2026/bali_ubud_2026_cover.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/bali_ubud_2026_cover.webp",
+      "original_dimensions": [
+        6526,
+        4351
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 2445092,
+      "web_bytes": 592774,
+      "reduction_percent": 75.8,
+      "psnr_db": 37.91
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04222.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04222.webp",
+      "original_dimensions": [
+        4810,
+        3207
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1730144,
+      "web_bytes": 709654,
+      "reduction_percent": 59.0,
+      "psnr_db": 36.84
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04223.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04223.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2449156,
+      "web_bytes": 513466,
+      "reduction_percent": 79.0,
+      "psnr_db": 37.79
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04232.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04232.webp",
+      "original_dimensions": [
+        6228,
+        4152
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 3991412,
+      "web_bytes": 1096902,
+      "reduction_percent": 72.5,
+      "psnr_db": 34.61
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04298.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04298.webp",
+      "original_dimensions": [
+        6336,
+        4224
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 3216759,
+      "web_bytes": 728350,
+      "reduction_percent": 77.4,
+      "psnr_db": 35.37
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04299.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04299.webp",
+      "original_dimensions": [
+        5565,
+        3710
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2760438,
+      "web_bytes": 896356,
+      "reduction_percent": 67.5,
+      "psnr_db": 35.67
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04308.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04308.webp",
+      "original_dimensions": [
+        5862,
+        3908
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 3770972,
+      "web_bytes": 1130500,
+      "reduction_percent": 70.0,
+      "psnr_db": 35.74
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04321.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04321.webp",
+      "original_dimensions": [
+        5688,
+        3792
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2792980,
+      "web_bytes": 865836,
+      "reduction_percent": 69.0,
+      "psnr_db": 36.22
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04322.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04322.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2060463,
+      "web_bytes": 246150,
+      "reduction_percent": 88.1,
+      "psnr_db": 39.89
+    },
+    {
+      "source": "projects/bali_ubud_2026/gallery/DSC04328.JPG",
+      "output": "assets/photos-web/projects/bali_ubud_2026/gallery/DSC04328.webp",
+      "original_dimensions": [
+        5360,
+        3573
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1515038,
+      "web_bytes": 405038,
+      "reduction_percent": 73.3,
+      "psnr_db": 38.71
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06123.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06123.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 4488827,
+      "web_bytes": 1885100,
+      "reduction_percent": 58.0,
+      "psnr_db": 32.04
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06128.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06128.webp",
+      "original_dimensions": [
+        3072,
+        4608
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2757772,
+      "web_bytes": 1144824,
+      "reduction_percent": 58.5,
+      "psnr_db": 34.73
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06130.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06130.webp",
+      "original_dimensions": [
+        3072,
+        4608
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2432826,
+      "web_bytes": 1034074,
+      "reduction_percent": 57.5,
+      "psnr_db": 33.41
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06142.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06142.webp",
+      "original_dimensions": [
+        3072,
+        4608
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2622251,
+      "web_bytes": 1158390,
+      "reduction_percent": 55.8,
+      "psnr_db": 32.78
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06144.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06144.webp",
+      "original_dimensions": [
+        3072,
+        4608
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2473656,
+      "web_bytes": 1078080,
+      "reduction_percent": 56.4,
+      "psnr_db": 33.2
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06175.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06175.webp",
+      "original_dimensions": [
+        2597,
+        4608
+      ],
+      "web_dimensions": [
+        1443,
+        2560
+      ],
+      "source_bytes": 2905266,
+      "web_bytes": 1269266,
+      "reduction_percent": 56.3,
+      "psnr_db": 32.45
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06198.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06198.webp",
+      "original_dimensions": [
+        4257,
+        2838
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2351642,
+      "web_bytes": 1223356,
+      "reduction_percent": 48.0,
+      "psnr_db": 32.59
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06232.jpg",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06232.webp",
+      "original_dimensions": [
+        4481,
+        2987
+      ],
+      "web_dimensions": [
+        2560,
+        1706
+      ],
+      "source_bytes": 2201423,
+      "web_bytes": 416326,
+      "reduction_percent": 81.1,
+      "psnr_db": 39.23
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06238.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06238.webp",
+      "original_dimensions": [
+        4476,
+        2984
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1095554,
+      "web_bytes": 373076,
+      "reduction_percent": 65.9,
+      "psnr_db": 38.85
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06239.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06239.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1978927,
+      "web_bytes": 859242,
+      "reduction_percent": 56.6,
+      "psnr_db": 35.85
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06247.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06247.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1171457,
+      "web_bytes": 390688,
+      "reduction_percent": 66.6,
+      "psnr_db": 38.3
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06249.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06249.webp",
+      "original_dimensions": [
+        2957,
+        4435
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2279381,
+      "web_bytes": 1164784,
+      "reduction_percent": 48.9,
+      "psnr_db": 34.68
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06253.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06253.webp",
+      "original_dimensions": [
+        2567,
+        3851
+      ],
+      "web_dimensions": [
+        1706,
+        2560
+      ],
+      "source_bytes": 1453241,
+      "web_bytes": 859824,
+      "reduction_percent": 40.8,
+      "psnr_db": 36.11
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06255.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06255.webp",
+      "original_dimensions": [
+        4080,
+        2720
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1696259,
+      "web_bytes": 895094,
+      "reduction_percent": 47.2,
+      "psnr_db": 35.51
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06258.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06258.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1416576,
+      "web_bytes": 567248,
+      "reduction_percent": 60.0,
+      "psnr_db": 37.54
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06272.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06272.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2663439,
+      "web_bytes": 1017306,
+      "reduction_percent": 61.8,
+      "psnr_db": 32.05
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06278.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06278.webp",
+      "original_dimensions": [
+        2972,
+        4458
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2798824,
+      "web_bytes": 1126532,
+      "reduction_percent": 59.7,
+      "psnr_db": 31.56
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06288.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06288.webp",
+      "original_dimensions": [
+        3072,
+        4608
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2617609,
+      "web_bytes": 1108316,
+      "reduction_percent": 57.7,
+      "psnr_db": 33.42
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06291.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06291.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2147101,
+      "web_bytes": 826852,
+      "reduction_percent": 61.5,
+      "psnr_db": 34.46
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06301.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06301.webp",
+      "original_dimensions": [
+        3072,
+        4608
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2379069,
+      "web_bytes": 906832,
+      "reduction_percent": 61.9,
+      "psnr_db": 33.1
+    },
+    {
+      "source": "projects/kyoto_2026/gallery/DSC06317.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/gallery/DSC06317.webp",
+      "original_dimensions": [
+        2557,
+        3835
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 564224,
+      "web_bytes": 209986,
+      "reduction_percent": 62.8,
+      "psnr_db": 40.51
+    },
+    {
+      "source": "projects/kyoto_2026/kyoto_2026_cover.JPG",
+      "output": "assets/photos-web/projects/kyoto_2026/kyoto_2026_cover.webp",
+      "original_dimensions": [
+        2843,
+        4265
+      ],
+      "web_dimensions": [
+        2000,
+        3000
+      ],
+      "source_bytes": 1335390,
+      "web_bytes": 767016,
+      "reduction_percent": 42.6,
+      "psnr_db": 37.19
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC01907.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC01907.webp",
+      "original_dimensions": [
+        4534,
+        4534
+      ],
+      "web_dimensions": [
+        2560,
+        2560
+      ],
+      "source_bytes": 5567512,
+      "web_bytes": 178672,
+      "reduction_percent": 96.8,
+      "psnr_db": 40.98
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC01955.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC01955.webp",
+      "original_dimensions": [
+        4672,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        2560
+      ],
+      "source_bytes": 8562591,
+      "web_bytes": 856400,
+      "reduction_percent": 90.0,
+      "psnr_db": 38.27
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC01984.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC01984.webp",
+      "original_dimensions": [
+        4672,
+        6229
+      ],
+      "web_dimensions": [
+        1920,
+        2560
+      ],
+      "source_bytes": 10973860,
+      "web_bytes": 680200,
+      "reduction_percent": 93.8,
+      "psnr_db": 37.39
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02000.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02000.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 8881828,
+      "web_bytes": 508874,
+      "reduction_percent": 94.3,
+      "psnr_db": 38.27
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02012.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02012.webp",
+      "original_dimensions": [
+        4322,
+        5763
+      ],
+      "web_dimensions": [
+        1920,
+        2560
+      ],
+      "source_bytes": 8816527,
+      "web_bytes": 467546,
+      "reduction_percent": 94.7,
+      "psnr_db": 37.53
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02033.jpg",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02033.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 11814046,
+      "web_bytes": 609852,
+      "reduction_percent": 94.8,
+      "psnr_db": 36.87
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02040.jpg",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02040.webp",
+      "original_dimensions": [
+        6229,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 13902645,
+      "web_bytes": 1751094,
+      "reduction_percent": 87.4,
+      "psnr_db": 33.51
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02123.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02123.webp",
+      "original_dimensions": [
+        4540,
+        6810
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 11107706,
+      "web_bytes": 620870,
+      "reduction_percent": 94.4,
+      "psnr_db": 37.19
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02140.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02140.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 12198390,
+      "web_bytes": 376432,
+      "reduction_percent": 96.9,
+      "psnr_db": 38.46
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02149.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02149.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 10937846,
+      "web_bytes": 321938,
+      "reduction_percent": 97.1,
+      "psnr_db": 39.17
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02177.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02177.webp",
+      "original_dimensions": [
+        4524,
+        4524
+      ],
+      "web_dimensions": [
+        2560,
+        2560
+      ],
+      "source_bytes": 10845256,
+      "web_bytes": 1652716,
+      "reduction_percent": 84.8,
+      "psnr_db": 35.83
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02182.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02182.webp",
+      "original_dimensions": [
+        4672,
+        6229
+      ],
+      "web_dimensions": [
+        1920,
+        2560
+      ],
+      "source_bytes": 11499188,
+      "web_bytes": 1136362,
+      "reduction_percent": 90.1,
+      "psnr_db": 37.5
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02197.jpg",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02197.webp",
+      "original_dimensions": [
+        4470,
+        5960
+      ],
+      "web_dimensions": [
+        1920,
+        2560
+      ],
+      "source_bytes": 10378205,
+      "web_bytes": 1245562,
+      "reduction_percent": 88.0,
+      "psnr_db": 36.77
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02256.jpg",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02256.webp",
+      "original_dimensions": [
+        6000,
+        4500
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 9089142,
+      "web_bytes": 743286,
+      "reduction_percent": 91.8,
+      "psnr_db": 37.7
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02259.jpg",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02259.webp",
+      "original_dimensions": [
+        4672,
+        6229
+      ],
+      "web_dimensions": [
+        1920,
+        2560
+      ],
+      "source_bytes": 7336700,
+      "web_bytes": 551188,
+      "reduction_percent": 92.5,
+      "psnr_db": 37.63
+    },
+    {
+      "source": "projects/kyushu_2025/gallery/DSC02265.jpg",
+      "output": "assets/photos-web/projects/kyushu_2025/gallery/DSC02265.webp",
+      "original_dimensions": [
+        4478,
+        5971
+      ],
+      "web_dimensions": [
+        1920,
+        2560
+      ],
+      "source_bytes": 7313831,
+      "web_bytes": 671432,
+      "reduction_percent": 90.8,
+      "psnr_db": 36.73
+    },
+    {
+      "source": "projects/kyushu_2025/kyushu_2025_cover.JPG",
+      "output": "assets/photos-web/projects/kyushu_2025/kyushu_2025_cover.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 11635570,
+      "web_bytes": 604328,
+      "reduction_percent": 94.8,
+      "psnr_db": 38.31
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/gallery/DSC03049.jpg",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03049.webp",
+      "original_dimensions": [
+        6777,
+        4518
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 3975837,
+      "web_bytes": 404474,
+      "reduction_percent": 89.8,
+      "psnr_db": 39.98
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/gallery/DSC03058.JPG",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03058.webp",
+      "original_dimensions": [
+        4672,
+        7008
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2516334,
+      "web_bytes": 508840,
+      "reduction_percent": 79.8,
+      "psnr_db": 38.87
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/gallery/DSC03079.JPG",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03079.webp",
+      "original_dimensions": [
+        4442,
+        6663
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2258045,
+      "web_bytes": 381512,
+      "reduction_percent": 83.1,
+      "psnr_db": 38.9
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/gallery/DSC03107.JPG",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03107.webp",
+      "original_dimensions": [
+        6788,
+        4525
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2686360,
+      "web_bytes": 470122,
+      "reduction_percent": 82.5,
+      "psnr_db": 37.74
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/gallery/DSC03108.JPG",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03108.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2696106,
+      "web_bytes": 480744,
+      "reduction_percent": 82.2,
+      "psnr_db": 38.53
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/gallery/DSC03125.JPG",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03125.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2302283,
+      "web_bytes": 327470,
+      "reduction_percent": 85.8,
+      "psnr_db": 38.83
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/gallery/DSC03140.JPG",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03140.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2491685,
+      "web_bytes": 405492,
+      "reduction_percent": 83.7,
+      "psnr_db": 38.67
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/gallery/DSC03153.JPG",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/gallery/DSC03153.webp",
+      "original_dimensions": [
+        6799,
+        4533
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 3688179,
+      "web_bytes": 811334,
+      "reduction_percent": 78.0,
+      "psnr_db": 37.26
+    },
+    {
+      "source": "projects/shanghai_hongkou_2025/shanghai_hongkou_2025_cover.JPG",
+      "output": "assets/photos-web/projects/shanghai_hongkou_2025/shanghai_hongkou_2025_cover.webp",
+      "original_dimensions": [
+        5913,
+        4435
+      ],
+      "web_dimensions": [
+        3000,
+        2250
+      ],
+      "source_bytes": 2964336,
+      "web_bytes": 1049948,
+      "reduction_percent": 64.6,
+      "psnr_db": 37.02
+    },
+    {
+      "source": "projects/shanghai_map_2026/gallery/DSC06839.JPG",
+      "output": "assets/photos-web/projects/shanghai_map_2026/gallery/DSC06839.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 565068,
+      "web_bytes": 92746,
+      "reduction_percent": 83.6,
+      "psnr_db": 42.13
+    },
+    {
+      "source": "projects/shanghai_map_2026/gallery/DSC06843.JPG",
+      "output": "assets/photos-web/projects/shanghai_map_2026/gallery/DSC06843.webp",
+      "original_dimensions": [
+        4577,
+        3051
+      ],
+      "web_dimensions": [
+        2560,
+        1706
+      ],
+      "source_bytes": 398637,
+      "web_bytes": 71560,
+      "reduction_percent": 82.0,
+      "psnr_db": 44.07
+    },
+    {
+      "source": "projects/shanghai_map_2026/gallery/DSC06853.JPG",
+      "output": "assets/photos-web/projects/shanghai_map_2026/gallery/DSC06853.webp",
+      "original_dimensions": [
+        4583,
+        3055
+      ],
+      "web_dimensions": [
+        2560,
+        1706
+      ],
+      "source_bytes": 631726,
+      "web_bytes": 133078,
+      "reduction_percent": 78.9,
+      "psnr_db": 41.2
+    },
+    {
+      "source": "projects/shanghai_map_2026/gallery/DSC06855.JPG",
+      "output": "assets/photos-web/projects/shanghai_map_2026/gallery/DSC06855.webp",
+      "original_dimensions": [
+        3940,
+        2627
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 435256,
+      "web_bytes": 115524,
+      "reduction_percent": 73.5,
+      "psnr_db": 41.9
+    },
+    {
+      "source": "projects/shanghai_map_2026/gallery/DSC06890.JPG",
+      "output": "assets/photos-web/projects/shanghai_map_2026/gallery/DSC06890.webp",
+      "original_dimensions": [
+        4422,
+        2948
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 581889,
+      "web_bytes": 127012,
+      "reduction_percent": 78.2,
+      "psnr_db": 41.96
+    },
+    {
+      "source": "projects/shanghai_map_2026/gallery/DSC06895.JPG",
+      "output": "assets/photos-web/projects/shanghai_map_2026/gallery/DSC06895.webp",
+      "original_dimensions": [
+        2552,
+        3828
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 672198,
+      "web_bytes": 316066,
+      "reduction_percent": 53.0,
+      "psnr_db": 39.15
+    },
+    {
+      "source": "projects/shanghai_map_2026/gallery/DSC06896.JPG",
+      "output": "assets/photos-web/projects/shanghai_map_2026/gallery/DSC06896.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1430613,
+      "web_bytes": 547270,
+      "reduction_percent": 61.7,
+      "psnr_db": 36.91
+    },
+    {
+      "source": "projects/shanghai_map_2026/shanghai_map_2026_cover.jpg",
+      "output": "assets/photos-web/projects/shanghai_map_2026/shanghai_map_2026_cover.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 755529,
+      "web_bytes": 239534,
+      "reduction_percent": 68.3,
+      "psnr_db": 41.68
+    },
+    {
+      "source": "projects/shanghai_marathon_2025/gallery/DSC03303.JPG",
+      "output": "assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03303.webp",
+      "original_dimensions": [
+        6806,
+        4537
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2662194,
+      "web_bytes": 623060,
+      "reduction_percent": 76.6,
+      "psnr_db": 36.71
+    },
+    {
+      "source": "projects/shanghai_marathon_2025/gallery/DSC03311.JPG",
+      "output": "assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03311.webp",
+      "original_dimensions": [
+        4627,
+        6941
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 2066161,
+      "web_bytes": 349266,
+      "reduction_percent": 83.1,
+      "psnr_db": 39.55
+    },
+    {
+      "source": "projects/shanghai_marathon_2025/gallery/DSC03383.JPG",
+      "output": "assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03383.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1720592,
+      "web_bytes": 247032,
+      "reduction_percent": 85.6,
+      "psnr_db": 40.29
+    },
+    {
+      "source": "projects/shanghai_marathon_2025/gallery/DSC03390.JPG",
+      "output": "assets/photos-web/projects/shanghai_marathon_2025/gallery/DSC03390.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 3020307,
+      "web_bytes": 699128,
+      "reduction_percent": 76.9,
+      "psnr_db": 37.12
+    },
+    {
+      "source": "projects/shanghai_marathon_2025/shanghai_marathon_2025.JPG",
+      "output": "assets/photos-web/projects/shanghai_marathon_2025/shanghai_marathon_2025.webp",
+      "original_dimensions": [
+        7008,
+        4672
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 2345488,
+      "web_bytes": 491382,
+      "reduction_percent": 79.0,
+      "psnr_db": 37.69
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/gallery/6月5日 (1)(1).PNG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(1).webp",
+      "original_dimensions": [
+        2880,
+        2160
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 17030949,
+      "web_bytes": 622978,
+      "reduction_percent": 96.3,
+      "psnr_db": 38.3
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/gallery/6月5日 (1)(10).PNG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(10).webp",
+      "original_dimensions": [
+        2880,
+        2160
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 15798818,
+      "web_bytes": 469028,
+      "reduction_percent": 97.0,
+      "psnr_db": 38.99
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/gallery/6月5日 (1)(2).PNG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(2).webp",
+      "original_dimensions": [
+        2880,
+        2160
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 15825293,
+      "web_bytes": 481466,
+      "reduction_percent": 97.0,
+      "psnr_db": 38.9
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/gallery/6月5日 (1)(3).PNG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(3).webp",
+      "original_dimensions": [
+        2880,
+        2160
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 17512122,
+      "web_bytes": 810808,
+      "reduction_percent": 95.4,
+      "psnr_db": 37.13
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/gallery/6月5日 (1)(4).PNG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(4).webp",
+      "original_dimensions": [
+        2880,
+        2160
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 18320859,
+      "web_bytes": 766846,
+      "reduction_percent": 95.8,
+      "psnr_db": 37.76
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/gallery/6月5日 (1)(6).PNG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(6).webp",
+      "original_dimensions": [
+        2880,
+        2160
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 18154978,
+      "web_bytes": 822246,
+      "reduction_percent": 95.5,
+      "psnr_db": 37.06
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/gallery/6月5日 (1)(7).PNG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/gallery/6月5日 (1)(7).webp",
+      "original_dimensions": [
+        2880,
+        2160
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 16723900,
+      "web_bytes": 616742,
+      "reduction_percent": 96.3,
+      "psnr_db": 38.12
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/gallery/IMG_4387.JPG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/gallery/IMG_4387.webp",
+      "original_dimensions": [
+        1608,
+        2412
+      ],
+      "web_dimensions": [
+        1608,
+        2412
+      ],
+      "source_bytes": 740100,
+      "web_bytes": 275056,
+      "reduction_percent": 62.8,
+      "psnr_db": 40.24
+    },
+    {
+      "source": "projects/shanghai_short_movie_2026/shanghai_short_movie_2026_cover.PNG",
+      "output": "assets/photos-web/projects/shanghai_short_movie_2026/shanghai_short_movie_2026_cover.webp",
+      "original_dimensions": [
+        2880,
+        2160
+      ],
+      "web_dimensions": [
+        2880,
+        2160
+      ],
+      "source_bytes": 13108462,
+      "web_bytes": 246666,
+      "reduction_percent": 98.1,
+      "psnr_db": 41.83
+    },
+    {
+      "source": "projects/shanghai_street_2024/gallery/IMG_4095.jpg",
+      "output": "assets/photos-web/projects/shanghai_street_2024/gallery/IMG_4095.webp",
+      "original_dimensions": [
+        3488,
+        2616
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 1015586,
+      "web_bytes": 400584,
+      "reduction_percent": 60.6,
+      "psnr_db": 41.18
+    },
+    {
+      "source": "projects/shanghai_street_2024/gallery/IMG_8732.jpg",
+      "output": "assets/photos-web/projects/shanghai_street_2024/gallery/IMG_8732.webp",
+      "original_dimensions": [
+        3848,
+        2886
+      ],
+      "web_dimensions": [
+        2560,
+        1920
+      ],
+      "source_bytes": 4365812,
+      "web_bytes": 1057814,
+      "reduction_percent": 75.8,
+      "psnr_db": 38.43
+    },
+    {
+      "source": "projects/shanghai_street_2024/shanghai_street_2024_cover.JPG",
+      "output": "assets/photos-web/projects/shanghai_street_2024/shanghai_street_2024_cover.webp",
+      "original_dimensions": [
+        4032,
+        3024
+      ],
+      "web_dimensions": [
+        3000,
+        2250
+      ],
+      "source_bytes": 5613771,
+      "web_bytes": 1048820,
+      "reduction_percent": 81.3,
+      "psnr_db": 38.2
+    },
+    {
+      "source": "projects/shanghai_street_2025/gallery/DSC00784.JPG",
+      "output": "assets/photos-web/projects/shanghai_street_2025/gallery/DSC00784.webp",
+      "original_dimensions": [
+        1616,
+        1080
+      ],
+      "web_dimensions": [
+        1616,
+        1080
+      ],
+      "source_bytes": 1128354,
+      "web_bytes": 335438,
+      "reduction_percent": 70.3,
+      "psnr_db": 35.24
+    },
+    {
+      "source": "projects/shanghai_street_2025/gallery/DSC01373.JPG",
+      "output": "assets/photos-web/projects/shanghai_street_2025/gallery/DSC01373.webp",
+      "original_dimensions": [
+        1520,
+        1016
+      ],
+      "web_dimensions": [
+        1520,
+        1016
+      ],
+      "source_bytes": 746153,
+      "web_bytes": 163980,
+      "reduction_percent": 78.0,
+      "psnr_db": 36.95
+    },
+    {
+      "source": "projects/shanghai_street_2025/shanghai_street_2025_cover.JPG",
+      "output": "assets/photos-web/projects/shanghai_street_2025/shanghai_street_2025_cover.webp",
+      "original_dimensions": [
+        1616,
+        1080
+      ],
+      "web_dimensions": [
+        1616,
+        1080
+      ],
+      "source_bytes": 499924,
+      "web_bytes": 84622,
+      "reduction_percent": 83.1,
+      "psnr_db": 40.9
+    },
+    {
+      "source": "projects/tokyo_2026/gallery/DSC06480.JPG",
+      "output": "assets/photos-web/projects/tokyo_2026/gallery/DSC06480.webp",
+      "original_dimensions": [
+        2710,
+        3614
+      ],
+      "web_dimensions": [
+        1920,
+        2560
+      ],
+      "source_bytes": 1427562,
+      "web_bytes": 905330,
+      "reduction_percent": 36.6,
+      "psnr_db": 36.75
+    },
+    {
+      "source": "projects/tokyo_2026/gallery/DSC06485.JPG",
+      "output": "assets/photos-web/projects/tokyo_2026/gallery/DSC06485.webp",
+      "original_dimensions": [
+        3072,
+        4608
+      ],
+      "web_dimensions": [
+        1707,
+        2560
+      ],
+      "source_bytes": 1036774,
+      "web_bytes": 339036,
+      "reduction_percent": 67.3,
+      "psnr_db": 39.18
+    },
+    {
+      "source": "projects/tokyo_2026/gallery/DSC06495.JPG",
+      "output": "assets/photos-web/projects/tokyo_2026/gallery/DSC06495.webp",
+      "original_dimensions": [
+        4222,
+        2815
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1129660,
+      "web_bytes": 426136,
+      "reduction_percent": 62.3,
+      "psnr_db": 37.71
+    },
+    {
+      "source": "projects/tokyo_2026/gallery/DSC06499.JPG",
+      "output": "assets/photos-web/projects/tokyo_2026/gallery/DSC06499.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1353045,
+      "web_bytes": 500764,
+      "reduction_percent": 63.0,
+      "psnr_db": 37.68
+    },
+    {
+      "source": "projects/tokyo_2026/gallery/DSC06519.JPG",
+      "output": "assets/photos-web/projects/tokyo_2026/gallery/DSC06519.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 1400403,
+      "web_bytes": 514066,
+      "reduction_percent": 63.3,
+      "psnr_db": 36.15
+    },
+    {
+      "source": "projects/tokyo_2026/tokyo_2026_cover.JPG",
+      "output": "assets/photos-web/projects/tokyo_2026/tokyo_2026_cover.webp",
+      "original_dimensions": [
+        2973,
+        4460
+      ],
+      "web_dimensions": [
+        2000,
+        3000
+      ],
+      "source_bytes": 1433541,
+      "web_bytes": 611386,
+      "reduction_percent": 57.4,
+      "psnr_db": 36.37
+    },
+    {
+      "source": "projects/tokyo_gallery_2026/gallery/DSC06430.JPG",
+      "output": "assets/photos-web/projects/tokyo_gallery_2026/gallery/DSC06430.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 564719,
+      "web_bytes": 97376,
+      "reduction_percent": 82.8,
+      "psnr_db": 41.5
+    },
+    {
+      "source": "projects/tokyo_gallery_2026/gallery/DSC06437.JPG",
+      "output": "assets/photos-web/projects/tokyo_gallery_2026/gallery/DSC06437.webp",
+      "original_dimensions": [
+        4598,
+        3065
+      ],
+      "web_dimensions": [
+        2560,
+        1706
+      ],
+      "source_bytes": 891978,
+      "web_bytes": 213240,
+      "reduction_percent": 76.1,
+      "psnr_db": 38.84
+    },
+    {
+      "source": "projects/tokyo_gallery_2026/gallery/DSC06443.JPG",
+      "output": "assets/photos-web/projects/tokyo_gallery_2026/gallery/DSC06443.webp",
+      "original_dimensions": [
+        4473,
+        2982
+      ],
+      "web_dimensions": [
+        2560,
+        1707
+      ],
+      "source_bytes": 664146,
+      "web_bytes": 144926,
+      "reduction_percent": 78.2,
+      "psnr_db": 39.83
+    },
+    {
+      "source": "projects/tokyo_gallery_2026/gallery/DSC06459.JPG",
+      "output": "assets/photos-web/projects/tokyo_gallery_2026/gallery/DSC06459.webp",
+      "original_dimensions": [
+        4586,
+        3057
+      ],
+      "web_dimensions": [
+        2560,
+        1706
+      ],
+      "source_bytes": 827653,
+      "web_bytes": 260154,
+      "reduction_percent": 68.6,
+      "psnr_db": 39.5
+    },
+    {
+      "source": "projects/tokyo_gallery_2026/gallery/DSC06466.JPG",
+      "output": "assets/photos-web/projects/tokyo_gallery_2026/gallery/DSC06466.webp",
+      "original_dimensions": [
+        4436,
+        2957
+      ],
+      "web_dimensions": [
+        2560,
+        1706
+      ],
+      "source_bytes": 533832,
+      "web_bytes": 126276,
+      "reduction_percent": 76.3,
+      "psnr_db": 41.83
+    },
+    {
+      "source": "projects/tokyo_gallery_2026/tokyo_gallery_2026_cover.JPG",
+      "output": "assets/photos-web/projects/tokyo_gallery_2026/tokyo_gallery_2026_cover.webp",
+      "original_dimensions": [
+        4608,
+        3072
+      ],
+      "web_dimensions": [
+        3000,
+        2000
+      ],
+      "source_bytes": 1391920,
+      "web_bytes": 643426,
+      "reduction_percent": 53.8,
+      "psnr_db": 37.24
+    }
+  ]
+}
