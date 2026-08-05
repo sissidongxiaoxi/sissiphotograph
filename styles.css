@@ -43,9 +43,11 @@ button { color: inherit; font: inherit; }
 .primary-nav a:hover::after, .primary-nav a:focus-visible::after { transform: scaleX(1); transform-origin: left; }
 .menu-toggle { display: none; border: 0; background: transparent; padding: 0; }
 
-.hero { position: relative; width: 100%; height: 100svh; min-height: 560px; background: #18261c; color: #fff; }
+.hero { position: relative; width: 100%; height: 100svh; min-height: 560px; overflow: hidden; background: #18261c; color: #fff; }
 .hero picture, .hero img { width: 100%; height: 100%; }
-.hero img { object-fit: cover; object-position: center; filter: saturate(.86) contrast(1.02); }
+.hero img { object-fit: cover; object-position: center; filter: blur(0) saturate(.86) contrast(1.02); transform: scale(1); transform-origin: center; }
+.hero-intro-pending .hero img { filter: blur(22px) saturate(.68) contrast(.9); transform: scale(1.065); }
+.hero-intro-running .hero img { transition: filter 1800ms var(--ease), transform 2100ms var(--ease); }
 .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.16), transparent 30%, rgba(0,0,0,.1)); pointer-events: none; }
 .hero-signature {
   --hero-signature-parallax: 0px; --hero-signature-opacity: 1;
@@ -56,6 +58,13 @@ button { color: inherit; font: inherit; }
   transform-origin: center; opacity: var(--hero-signature-opacity);
   transition: filter 620ms var(--ease), opacity 120ms linear;
   cursor: default;
+}
+.hero-intro-pending .hero-signature {
+  opacity: 0; filter: blur(10px);
+  transform: translate3d(52vw, calc(-50% + var(--hero-signature-parallax)), 0) rotate(2deg);
+}
+.hero-intro-running .hero-signature {
+  transition: transform 1650ms var(--ease), filter 1450ms var(--ease), opacity 1100ms ease 180ms;
 }
 .hero-signature:hover { filter: drop-shadow(0 13px 15px rgba(0,0,0,.2)); }
 .hero-signature span {

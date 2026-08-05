@@ -37,8 +37,23 @@ const aboutCopy = document.querySelector(".about-copy");
 const aboutTitle = document.querySelector("#about-title");
 const hero = document.querySelector(".hero");
 const heroSignature = document.querySelector(".hero-signature");
+const heroImage = hero?.querySelector("img");
 let activeIndex = 0;
 let isBookTransitioning = false;
+
+function playHeroIntro() {
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    document.body.classList.add("hero-intro-running");
+    document.body.classList.remove("hero-intro-pending");
+    window.setTimeout(() => document.body.classList.remove("hero-intro-running"), 2300);
+  }));
+}
+
+if (heroImage?.complete) playHeroIntro();
+else {
+  heroImage?.addEventListener("load", playHeroIntro, { once: true });
+  heroImage?.addEventListener("error", playHeroIntro, { once: true });
+}
 
 const pad = (number) => String(number).padStart(2, "0");
 
